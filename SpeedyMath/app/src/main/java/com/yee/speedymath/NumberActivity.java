@@ -77,12 +77,13 @@ public class NumberActivity extends AppCompatActivity implements View.OnClickLis
     }
 
     //Determine which button is pressed and set number to that number
-    //if random set the number to 0
+    //if random set the number to 13
     public void onClick(View v){
         switch (v.getId()){
             case R.id.number_0:
                 gamePlay.setNumber(0);
                 createIntent();
+                break;
             case R.id.number_1:
                 gamePlay.setNumber(1);
                 createIntent();

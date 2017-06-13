@@ -37,6 +37,7 @@ public class ProblemsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_problems);
 
+
         //get the game play from the number activity
         gamePlay = (GamePlay) getIntent().getSerializableExtra("gamePlay");
 
