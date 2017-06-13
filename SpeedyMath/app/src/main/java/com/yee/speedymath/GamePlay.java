@@ -118,7 +118,7 @@ public class GamePlay implements Serializable{
 
     //display numbers
     public void setNumbers(){
-        if(number == 0){
+        if(number == 13){
             first_number = determineNumber();
             second_number = determineNumber();
         }else{

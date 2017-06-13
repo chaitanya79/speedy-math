@@ -48,26 +48,24 @@
         android:textSize="20sp"
         android:layout_alignBaseline="@+id/instructions"
         android:layout_alignBottom="@+id/instructions"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginLeft="10dp"
-        android:layout_marginStart="10dp" />
+        android:layout_alignLeft="@+id/speedy"
+        android:layout_alignStart="@+id/speedy"
+        android:layout_marginLeft="-20dp"
+        android:layout_marginStart="-20dp" />
 
     <Button
         android:id="@+id/instructions"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
+        android:layout_alignRight="@+id/speedy"
+        android:layout_alignEnd="@+id/speedy"
         android:layout_marginBottom="35dp"
-        android:layout_marginEnd="10dp"
-        android:layout_marginRight="10dp"
+        android:layout_marginEnd="-20dp"
+        android:layout_marginRight="-20dp"
         android:text="@string/instructions"
         android:textSize="20sp"
-        android:layout_toRightOf="@+id/start"
-        android:layout_toEndOf="@+id/start"
-        android:layout_marginLeft="10dp"
-        android:layout_marginStart="10dp"/>
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"/>
 
 </RelativeLayout>

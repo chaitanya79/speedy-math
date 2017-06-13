@@ -81,7 +81,7 @@ public class NumberActivity extends AppCompatActivity implements View.OnClickLis
     public void onClick(View v){
         switch (v.getId()){
             case R.id.number_0:
-                gamePlay.setNumber(1);
+                gamePlay.setNumber(0);
                 createIntent();
             case R.id.number_1:
                 gamePlay.setNumber(1);
@@ -133,7 +133,7 @@ public class NumberActivity extends AppCompatActivity implements View.OnClickLis
                 createIntent();
                 break;
             case R.id.number_random:
-                gamePlay.setNumber(0);
+                gamePlay.setNumber(13);
                 createIntent();
                 break;
         }
