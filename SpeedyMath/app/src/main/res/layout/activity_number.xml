@@ -168,11 +168,24 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="0"
+        android:id="@+id/number_0"
+        android:layout_below="@+id/number_10"
+        android:layout_toStartOf="@+id/number_random"
+        android:layout_toLeftOf="@+id/number_random"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="25sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="random"
         android:id="@+id/number_random"
         android:layout_below="@+id/number_11"
-        android:layout_alignLeft="@id/number_10"
-        android:layout_alignStart="@id/number_10"
+        android:layout_alignLeft="@id/number_11"
+        android:layout_alignStart="@id/number_11"
         android:layout_alignEnd="@id/number_12"
         android:layout_alignRight="@id/number_12"
         android:layout_marginBottom="10dp"

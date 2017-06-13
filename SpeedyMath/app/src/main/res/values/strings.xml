@@ -6,4 +6,6 @@
     <string name="random_x">Random (+, -, x)</string>
     <string name="speedy">SPEEDY</string>
     <string name="subtraction">Subtraction (-)</string>
+    <string name="instructions">Instructions</string>
+    <string name="start">Start Game</string>
 </resources>

@@ -20,6 +20,7 @@ import android.widget.Button;
 public class NumberActivity extends AppCompatActivity implements View.OnClickListener{
 
     private GamePlay gamePlay;
+    private Button number_0;
     private Button number_1;
     private Button number_2;
     private Button number_3;
@@ -40,6 +41,7 @@ public class NumberActivity extends AppCompatActivity implements View.OnClickLis
         setContentView(R.layout.activity_number);
 
         //get buttons
+        number_0 = (Button) findViewById(R.id.number_0);
         number_1 = (Button) findViewById(R.id.number_1);
         number_2 = (Button) findViewById(R.id.number_2);
         number_3 = (Button) findViewById(R.id.number_3);
@@ -55,6 +57,7 @@ public class NumberActivity extends AppCompatActivity implements View.OnClickLis
         number_random = (Button) findViewById(R.id.number_random);
 
         //set click listener to buttons
+        number_0.setOnClickListener(this);
         number_1.setOnClickListener(this);
         number_2.setOnClickListener(this);
         number_3.setOnClickListener(this);
@@ -77,6 +80,9 @@ public class NumberActivity extends AppCompatActivity implements View.OnClickLis
     //if random set the number to 0
     public void onClick(View v){
         switch (v.getId()){
+            case R.id.number_0:
+                gamePlay.setNumber(1);
+                createIntent();
             case R.id.number_1:
                 gamePlay.setNumber(1);
                 createIntent();
